@@ -1,6 +1,6 @@
 # Ignite Shop
 
-An nice example of a shop app using NEXTjs
+A nice example of a shop app using NEXT.js
 
 ## Demo
 
