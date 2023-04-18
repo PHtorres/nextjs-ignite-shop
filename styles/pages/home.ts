@@ -8,7 +8,7 @@ export const HomeContainer = styled("main", {
   minHeight: 656,
 });
 
-export const Product = styled("a", {
+export const Product = styled("div", {
   background: "linear-gradient(180deg, #1ea483 0%, #7465d4 100%)",
   borderRadius: 8,
   cursor: "pointer",
@@ -16,7 +16,7 @@ export const Product = styled("a", {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  minWidth:540,
+  minWidth: 540,
 
   img: {
     objectFit: "cover",
@@ -34,13 +34,14 @@ export const Product = styled("a", {
     justifyContent: "space-between",
     backgroundColor: "rgba(0,0,0, 0.6)",
 
-    overflow:'hidden',
+    overflow: "hidden",
     transform: "translateY(110%)",
     opacity: 0,
     transition: "all 0.2s ease-in-out",
 
     strong: {
       fontSize: "$lg",
+      color: "$gray100",
     },
 
     span: {
